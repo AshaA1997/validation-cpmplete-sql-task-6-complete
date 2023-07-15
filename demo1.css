@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blueviolet;
+    overflow:hidden;
+
+
+}
+
+.header{
+    height: 470px;
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+    margin: 75px auto;
+    padding: 40px;
+
+
+}
+
+form {
+    padding:30px;
+}
+.input-field{
+    padding: 0;
+    width: 100%;
+
+
+}
+
+input{
+    width: 100%;
+    height:48px;
+    border-radius:10px;
+    margin-top: 7px;
+    border: 2px solid black;
+}
+label{
+    float: left;
+
+}
+
+.user-input{
+    margin-bottom: 25px;
+    position:relative
+
+}
+button{
+    width: 100%;
+    height:48px;
+    border-radius: 10px;
+    border:none;
+    cursor:pointer;
+    color:white;
+    background-color:blue;
+    margin-top: 10px;
+    margin-top: 5px;
+    font-weight: 700;
+
+
+}
+
+#f-pass{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.user-input.fa{
+    position:absolute;
+    top:50%;
+    right:8%;
+    display:none;
+
+}
+.fa-times{
+    color:red;
+}
+.fa-check{
+    color:green;
+
+}
